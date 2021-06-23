@@ -6,6 +6,12 @@
         <div class="memory">
             <slot name="content"></slot>
         </div>
+        <div class="memory">
+            <slot name="author">
+                <h3>Author</h3>
+                <p>There is no content here</p>
+            </slot>
+        </div>
     </div>
 </template>
 
